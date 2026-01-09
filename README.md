@@ -20,7 +20,7 @@ npx wrangler dev
 確認已登入 Cloudflare 後執行：
 
 ```bash
-npx wrangler publish
+npx wrangler deploy
 ```
 
 Wrangler 會讀取 `wrangler.toml` 設定，將 `dist/` 內的檔案部署到 Cloudflare。
