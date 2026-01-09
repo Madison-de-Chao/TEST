@@ -28,3 +28,5 @@ Wrangler 會讀取 `wrangler.toml` 設定，將 `dist/` 內的檔案部署到 Cl
 ## 專案結構
 - `dist/`：靜態資產目錄（目前包含一個占位頁面 `index.html`）。
 - `wrangler.toml` / `wrangler.jsonc`：Cloudflare Workers 設定，指定專案名稱與資產目錄。
+
+> Wrangler 會優先讀取 `wrangler.toml`；`wrangler.jsonc` 內容相同，供偏好 JSON 格式時參考。
